@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-hero-section {
+  background: url(../img/hero-bg.jpg)  no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.text-primary {
+  color: #124265 !important;
+}
+
+.btn-primary {
+  background-color: blue !important;
+}
+
+#count-section {
+  background: #f8fbfe;
+}
+
+#count-section h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+#client-section {
+  background: #f8fbfe;
+}
+
+#client-section img {
+  max-width: 50%;
+  filter: grayscale(100);
+  transition: all 0.4s ease-in-out;
+}
+
+#client-section img:hover {
+  filter: none;
+  transform: scale(1.2);
+}
+
+.testimonial-person {
+  text-align: center;
+}
+
+.testimonial-person img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#call-to-action {
+  background-color: #2487CE;
+}
+
+.icon-section {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.icon-section svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.icon-section i {
+  z-index: 10;
+}
